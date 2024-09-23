@@ -2218,8 +2218,8 @@ input, select, textarea {
 		}
 
 			#main > section.dark {
-				color: #ddd;
-				color: rgba(255, 255, 255, 0.75);
+				color: #2b2b2b;
+				color: rgba(28, 28, 28, 0.75);
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
@@ -2227,8 +2227,9 @@ input, select, textarea {
 				}
 
 				#main > section.dark strong {
-					color: #fff;
+					color: #141313;
 					border-color: inherit;
+					font-weight: bolder;
 				}
 
 				#main > section.dark a {
