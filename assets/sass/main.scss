@@ -623,13 +623,24 @@
 			line-height: 1em;
 		}
 
+		// p {
+		// 	position: relative;
+		// 	display: block;
+		// 	font-size: 0.6em;
+		// 	color: rgba(255, 255, 255, 0.5);
+		// 	line-height: 1.25em;
+		// 	margin: 0.5em 0 0 0;
+		// }
+
 		p {
-			position: relative;
-			display: block;
-			font-size: 0.6em;
-			color: rgba(255, 255, 255, 0.5);
-			line-height: 1.25em;
-			margin: 0.5em 0 0 0;
+			position: relative; /* Retain the relative positioning */
+			text-align: justify; /* Ensures text is justified, like in LaTeX */
+			line-height: 1.6; /* Adjust the line height for better readability */
+			font-family: "Times New Roman", Times, serif; /* Use a serif font like LaTeX */
+			font-size: 16px; /* Adjust to your preferred font size */
+			margin: 1em 0; /* Add spacing around the paragraph */
+			hyphens: auto; /* Enable word hyphenation for better justification */
+			text-justify: inter-word; /* Distribute spaces evenly between words */
 		}
 
 		.image {
